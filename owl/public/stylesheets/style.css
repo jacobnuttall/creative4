@@ -1,9 +1,19 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: purple;
-}
 
 a {
   color: #00B7FF;
+}
+
+body {
+  background-image: linear-gradient(rgb(47,53,52),rgb(35,52,53));
+  background-repeat: no-repeat;
+}
+
+#backdrop {
+  background: url('../media/three_doors_down.jpg') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
 }
