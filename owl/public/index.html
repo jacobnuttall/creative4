@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div class="container">
-        <h1>Doors of Fate</h1>
+        <h1>Choose Your Door</h1>
       </div>
     </nav>
 
@@ -31,7 +31,7 @@
     <div class="container">
       <div class="row">
         <div id='Instruction' class="col-lg-12 text-center container-fluid">
-          <h1 class="mt-5">Choose Your Door</h1>
+          <div id='space'></div>
         </div>
       </div>
 
@@ -42,23 +42,26 @@
           </div>
         
           <form>
-            <div class='door col-sm'>
+            <div class='row'>
+            <div id='door-1' class='door door-b col-sm'>
             <button class='door-btn' >Door 1</button>
             </div>
-            <div class='door col-sm'>
+            <div class='col-med'></div>
+            <div id='door-2' class='door door-b col-sm'>
             <button class="door-btn">Door 2</button>
             </div>
-            <div class='door col-sm'>
+            <div class='col-med'></div>
+            <div id='door-3' class='door door-b col-sm'>
             <button class='door-btn' class="door">Door 3</button>
             </div>
-            <br><span id="owldef"></span>
-        
+            </div>
+            <br><br>
+            <div id="owldef"></div>
+            </div>
           </form>
         </div>
       </div>
       
-    
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendorbootstrap/js/bootstrap.bundle.min.js"></script>

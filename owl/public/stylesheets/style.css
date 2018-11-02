@@ -1,19 +1,19 @@
 
-a {
-  color: #00B7FF;
-}
-
 body {
   background-image: linear-gradient(rgb(47,53,52),rgb(35,52,53));
   background-repeat: no-repeat;
   overflow: hidden;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 
 .container {
   color: white;
   text-align: center;
+}
+
+#space {
+  height: 100px;
 }
 
 #backdrop {
@@ -30,13 +30,33 @@ body {
 .card {
   color: black;
 }
+.card-text {
+  font-size: 1.3em;
+}
 
 .door-btn {
-  background-color: white;
-  height: 5vh;
-  width: 20vw;
+  background-color: rgba(220,240,240,0.7);
+  color: white;
+  text-shadow: 3px 1px 2px black;
+  height: 60px;
+  width: 90px;
 }
 
 #dummy-col {
-  height: 11vh;
+  height: 30vh;
+}
+
+.door-b {
+  float: left;
+}
+
+.door {
+  display: block;
+  position: block;
+}
+
+
+
+#owldef {
+  margin-top: 12vh;
 }

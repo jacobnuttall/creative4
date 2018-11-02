@@ -7,6 +7,7 @@ $(".door").click(function(event){
     everything = "<ul>";
     $.each(data, function(i,item) {
         everything += '<div class="card" style="width: 18rem;">'
+                     + '<span class="card-title"><h3><strong>Your fate is...</strong></h3></span>'
                      + '<div class="card-body">'
                      + '<p class="card-text">'
                      + data[i].city;
