@@ -6,14 +6,37 @@ a {
 body {
   background-image: linear-gradient(rgb(47,53,52),rgb(35,52,53));
   background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  color: white;
+  text-align: center;
 }
 
 #backdrop {
-  background: url('../media/three_doors_down.jpg') no-repeat center;
+  background: url('../media/three_doors_down.jpg') no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
   height: 100vh;
   width: 100vw;
+  display: inline-block;
+}
+
+.card {
+  color: black;
+}
+
+.door-btn {
+  background-color: white;
+  height: 5vh;
+  width: 20vw;
+}
+
+#dummy-col {
+  height: 11vh;
 }

@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile('owl.html', { root:  'public' });
+  res.sendFile('index.html', { root:  'public' });
 });
 
 router.get('/getdeath',function(req,res,next) {
