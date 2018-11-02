@@ -1,3 +1,5 @@
+/* global $ */
+
 
 $(".door").click(function(event){
     event.preventDefault();
@@ -17,4 +19,16 @@ $(".door").click(function(event){
         everything += '</div>';
         $("#owldef").html(everything);
     });
+});
+
+$("#submit").click(function(event) {
+   var url="fate";
+   event.preventDefault;
+   console.log(event);
+   var fate = { "fate": $("#text-input").val() };
+   fate = JSON.stringify(fate);
+   console.log(url);
+   $.post('fate',  fate , function(data, text) {
+       console.log(data);
+   });
 });
